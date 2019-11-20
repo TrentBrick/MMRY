@@ -1,0 +1,43 @@
+Priorities:
+* randomize order of card testing
+* user welcome/onboarding tutorial
+* actually useful cards
+* user analytics: track user engagement and success rates. eg. how many cards people have tested themselves on. 
+
+set up a persistent menu.
+
+allow for more new card decks to be loaded in
+
+make it easier to make new cards
+
+allow for importing cards and web app to create them. 
+
+add in welcome message
+
+Card making:
+* if a new card is made in the same category, no need to state the category it is in, will automatically use the same category. 
+* allow cards to be made with one message rather than two. 
+* put in card confirmation or the ability to edit the card just made. 
+*get rid of the make card function
+
+Ensure that if someone doesn’t say stop, to save their cards after 5 minutes. 
+
+> 
+> Welcome screen. Instant tutorial on the purpose of the algo and help instructions. 
+> Then walks you through a pre loaded tutorial deck where you have to type "test me" and go through the cards to learn how to use the app/it's main functionality. 
+> 
+> Persistent menu will also greatly help with commands. 
+> 
+>> 
+>> Monetise selling decks
+>> Have card battles with friends
+>> Web app to make and import cards
+>> 
+>> * Have a queue that deals with all function calls from receiving messages. Much cleaner than the current mass of booleans. Will still need to have global dictionaries with different values though. 
+>> 
+>> Send gif to user when they do 25 cards. (Make sure card Ind tracks 
+>> the number of cards completed rather than merely scanned. ) Break up decks into 200 cards(prebuilt).
+>> Ensure categoriesData doesn't load the whole deck. Should merely get
+>> Object.keys()
+
+
